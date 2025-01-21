@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27ab5d9f-bbd7-4c08-9bc2-b7d7d945cb63" name="更改" comment="设计原则、单例设计模式" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/11.0.1/tomcat-embed-core-11.0.1.jar!/org/apache/catalina/connector/Request.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/11.0.1/tomcat-embed-core-11.0.1.jar!/org/apache/catalina/connector/RequestFacade.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2rFTzcV3x4gIlqbkD3vQz2blyOI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JavaForWork/design_patterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.16113281",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.colin.patterns.creational_patterns.singleton.hungry.static_block" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.singleton.hungry.static_variable.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.singleton.hungry.static_variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.priciples.DIP.ComputerDemo" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.priciples.DIP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.singleton.hungry.static_block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.colin.priciples.ISP.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.priciples.ISP.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.priciples.ISP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.colin.priciples.LoD.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.priciples.LoD.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.priciples.LoD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client" />
+        <item itemvalue="应用程序.Client" />
+        <item itemvalue="应用程序.com.colin.priciples.LoD.Client" />
+        <item itemvalue="应用程序.com.colin.priciples.ISP.Client" />
+        <item itemvalue="应用程序.ComputerDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="27ab5d9f-bbd7-4c08-9bc2-b7d7d945cb63" name="更改" comment="" />
+      <created>1736154092338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736154092338</updated>
+      <workItem from="1736154093507" duration="1908000" />
+      <workItem from="1736169168171" duration="5212000" />
+      <workItem from="1736240263377" duration="646000" />
+      <workItem from="1736447481183" duration="8000" />
+      <workItem from="1736675125771" duration="741000" />
+      <workItem from="1737016449592" duration="1000" />
+      <workItem from="1737281569670" duration="351000" />
+      <workItem from="1737294809471" duration="595000" />
+      <workItem from="1737301048324" duration="1283000" />
+      <workItem from="1737362010278" duration="6206000" />
+      <workItem from="1737431059039" duration="4472000" />
+      <workItem from="1737446899983" duration="2535000" />
+      <workItem from="1737460166211" duration="595000" />
+      <workItem from="1737473030731" duration="1079000" />
+      <workItem from="1737474120409" duration="171000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1736154433528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736154433528</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1736154537841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736154537841</updated>
+    </task>
+    <task id="LOCAL-00003" summary="结构型模式——外观模式">
+      <created>1736176981304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736176981304</updated>
+    </task>
+    <task id="LOCAL-00004" summary="设计原则——开闭原则">
+      <created>1737302112161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737302112161</updated>
+    </task>
+    <task id="LOCAL-00005" summary="设计原则、单例设计模式">
+      <created>1737473589713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737473589713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="结构型模式——外观模式" />
+    <MESSAGE value="设计原则——开闭原则" />
+    <MESSAGE value="设计原则、单例设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计原则、单例设计模式" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
