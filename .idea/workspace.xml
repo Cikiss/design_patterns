@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ab5d9f-bbd7-4c08-9bc2-b7d7d945cb63" name="更改" comment="设计原则、单例设计模式" />
+    <list default="true" id="27ab5d9f-bbd7-4c08-9bc2-b7d7d945cb63" name="更改" comment="模式扩展——配置抽象工厂和简单工厂">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/AmericanStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/AmericanStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/CoffeeDessertFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/CoffeeDessertFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Dessert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/ItalianStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/ItalianStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/MatchaMousse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/MatchaMousse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Tiramisu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/AmericanStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/AmericanStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/CoffeeDessertFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/CoffeeDessertFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Dessert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/FactorySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/FactorySelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/ItalianStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/ItalianStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/MatchaMousse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/MatchaMousse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Tiramisu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/CoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/CoffeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/AmericanoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/AmericanoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/CoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/CoffeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/CoffeeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/CoffeeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/LatteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/LatteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/CoffeeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/CoffeeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/SimpleCoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/SimpleCoffeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +57,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -40,37 +84,60 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaForWork/design_patterns",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.16113281",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaForWork/design_patterns/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16113281&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaForWork\design_patterns\src\main\resources" />
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns\advance_abstract_factory" />
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns" />
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns\mode_extension" />
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns\abstract_factory" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.colin.patterns.creational_patterns.abstract_factory" />
+      <recent name="com.colin.patterns.creational_patterns.simple_factory" />
       <recent name="com.colin.patterns.creational_patterns.singleton.hungry.static_block" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client">
+  <component name="RunManager" selected="应用程序.CitationTest">
+    <configuration name="CitationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.prototype.CitationTest" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.singleton.hungry.static_variable.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.config_abstract_factory.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.singleton.hungry.static_variable.*" />
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.config_abstract_factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.priciples.DIP.ComputerDemo" />
+    <configuration name="com.colin.patterns.creational_patterns.abstract_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.abstract_factory.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.priciples.DIP.*" />
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.abstract_factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client" />
+    <configuration name="com.colin.patterns.creational_patterns.config_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.config_factory.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.singleton.hungry.static_block.*" />
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.config_factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.colin.priciples.ISP.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.priciples.ISP.Client" />
+    <configuration name="com.colin.patterns.creational_patterns.factory_method.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.factory_method.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.priciples.ISP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.colin.priciples.LoD.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.priciples.LoD.Client" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.colin.priciples.LoD.*" />
+          <option name="PATTERN" value="com.colin.patterns.creational_patterns.factory_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.singleton.hungry.static_block.Client" />
+        <item itemvalue="应用程序.CitationTest" />
         <item itemvalue="应用程序.Client" />
-        <item itemvalue="应用程序.com.colin.priciples.LoD.Client" />
-        <item itemvalue="应用程序.com.colin.priciples.ISP.Client" />
-        <item itemvalue="应用程序.ComputerDemo" />
+        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.config_factory.Client" />
+        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.abstract_factory.Client" />
+        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.factory_method.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +217,10 @@
       <workItem from="1737460166211" duration="595000" />
       <workItem from="1737473030731" duration="1079000" />
       <workItem from="1737474120409" duration="171000" />
+      <workItem from="1737474299797" duration="452000" />
+      <workItem from="1737533914064" duration="6583000" />
+      <workItem from="1737560867650" duration="2886000" />
+      <workItem from="1737622657938" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1736154433528</created>
@@ -199,7 +257,42 @@
       <option name="project" value="LOCAL" />
       <updated>1737473589713</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="设计原则、单例设计模式">
+      <created>1737474311310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737474311310</updated>
+    </task>
+    <task id="LOCAL-00007" summary="简单工厂模式（静态工厂）">
+      <created>1737534740599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737534740599</updated>
+    </task>
+    <task id="LOCAL-00008" summary="工厂方法模式">
+      <created>1737540504528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737540504528</updated>
+    </task>
+    <task id="LOCAL-00009" summary="抽象工厂模式">
+      <created>1737542359073</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737542359073</updated>
+    </task>
+    <task id="LOCAL-00010" summary="模式扩展——配置抽象工厂和简单工厂">
+      <created>1737563350164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737563350164</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +314,11 @@
     <MESSAGE value="结构型模式——外观模式" />
     <MESSAGE value="设计原则——开闭原则" />
     <MESSAGE value="设计原则、单例设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计原则、单例设计模式" />
+    <MESSAGE value="简单工厂模式（静态工厂）" />
+    <MESSAGE value="工厂方法模式" />
+    <MESSAGE value="抽象工厂模式" />
+    <MESSAGE value="模式扩展——配置抽象工厂和简单工厂" />
+    <option name="LAST_COMMIT_MESSAGE" value="模式扩展——配置抽象工厂和简单工厂" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
