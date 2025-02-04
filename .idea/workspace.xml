@@ -4,50 +4,123 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ab5d9f-bbd7-4c08-9bc2-b7d7d945cb63" name="更改" comment="模式扩展——配置抽象工厂和简单工厂">
+    <list default="true" id="27ab5d9f-bbd7-4c08-9bc2-b7d7d945cb63" name="更改" comment="模板方法模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/behavior_pattern/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/behavior_pattern/strategy/SalesMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/behavior_pattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/behavior_pattern/strategy/StrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/behavior_pattern/strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/behavior_pattern/strategy/StrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/lazy/enum_singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/AmericanStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/AmericanStyleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/CoffeeDessertFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/CoffeeDessertFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Dessert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/ItalianStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/ItalianStyleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/MatchaMousse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/MatchaMousse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/abstract_factory/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Tiramisu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/AmericanStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/AmericanStyleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/CoffeeDessertFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/CoffeeDessertFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Dessert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/FactorySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/FactorySelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/ItalianStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/ItalianStyleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/MatchaMousse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/MatchaMousse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_abstract_factory/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Tiramisu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/CoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/CoffeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/config_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/AmericanoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/AmericanoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/CoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/CoffeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/CoffeeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/CoffeeStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory_method/LatteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/LatteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/CoffeeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/CoffeeStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/simple_factory/SimpleCoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/SimpleCoffeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/builder/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/builder/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/builder/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/builder/MobikeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/builder/MobikeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/builder/OfoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/builder/OfoBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/chain_builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/chain_builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/chain_builder/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/chain_builder/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/AmericanStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/AmericanStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/CoffeeDessertFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/CoffeeDessertFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/Dessert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/ItalianStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/ItalianStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/MatchaMousse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/MatchaMousse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/abstract_factory/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/abstract_factory/Tiramisu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/AmericanStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/AmericanStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/CoffeeDessertFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/CoffeeDessertFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/Dessert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/FactorySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/FactorySelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/ItalianStyleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/ItalianStyleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/MatchaMousse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/MatchaMousse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_abstract_factory/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_abstract_factory/Tiramisu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/CoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_factory/CoffeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/config_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/AmericanoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/AmericanoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/simple_factory/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/CoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/CoffeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/CoffeeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/CoffeeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/config_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/factory_method/LatteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/LatteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/simple_factory/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/simple_factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/factory_method/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/CoffeeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/simple_factory/CoffeeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/simple_factory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/factory/simple_factory/SimpleCoffeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/factory/simple_factory/SimpleCoffeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/prototype/Citation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/prototype/Citation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/prototype/CitationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/prototype/CitationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/hungry/static_block/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/hungry/static_block/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/hungry/static_variable/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/hungry/static_variable/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/lazy/double_check/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/lazy/double_check/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/lazy/enum_singleton/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/lazy/static_nested_class/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/lazy/static_nested_class/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/lazy/syn/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/lazy/syn/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_patterns/singleton/lazy/unsafe/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/creational_pattern/singleton/lazy/unsafe/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/SDAdapterTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/SDAdapterTF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/SDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/SDCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/SDCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/TFCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/TFCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/class_adapter/TFCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/TFCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/SDAdapterTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/SDAdapterTF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/SDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/SDCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/SDCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/TFCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/class_adapter/TFCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter/TFCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/adapter/object_adapter/TFCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/AVIFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/AVIFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/Mac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/Mac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/OperatingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/OperatingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/RMVBFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/RMVBFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/VideoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/VideoFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/bridge/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/bridge/Windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/composite/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/composite/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/composite/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/composite/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/composite/MenuComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/composite/MenuComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/composite/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/composite/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/Bacon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/Bacon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/Egg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/FastFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/FastFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/FriedNoodles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/FriedNoodles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/FriedRice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/FriedRice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/decorator/Garnish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/decorator/Garnish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/facade/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/facade/SmartAppliancesFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/facade/SmartAppliancesFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/facade/sub_system/AirCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/facade/sub_system/AirCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/facade/sub_system/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/facade/sub_system/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/facade/sub_system/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/facade/sub_system/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/cglib_proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/cglib_proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/cglib_proxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/cglib_proxy/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/cglib_proxy/TrainStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/cglib_proxy/TrainStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/jdk_proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/jdk_proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/jdk_proxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/jdk_proxy/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/jdk_proxy/SellTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/jdk_proxy/SellTickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/jdk_proxy/TrainStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/jdk_proxy/TrainStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/static_proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/static_proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/static_proxy/ProxyPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/static_proxy/ProxyPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/static_proxy/SellTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/static_proxy/SellTickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_patterns/proxy/static_proxy/TrainStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colin/patterns/structural_pattern/proxy/static_proxy/TrainStation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +140,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-20.0.1/lib/src.zip!/java.base/java/lang/reflect/InvocationHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-20.0.1/lib/src.zip!/java.base/java/lang/reflect/Proxy.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/11.0.1/tomcat-embed-core-11.0.1.jar!/org/apache/catalina/connector/Request.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/11.0.1/tomcat-embed-core-11.0.1.jar!/org/apache/catalina/connector/RequestFacade.class" root0="SKIP_INSPECTION" />
   </component>
@@ -91,7 +166,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaForWork/design_patterns/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaForWork/design_patterns/src/main/java/com/colin/patterns/structural_patterns/adapter/object_adapter&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,38 +181,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\structural_patterns\adapter\object_adapter" />
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\structural_patterns\proxy\cglib_proxy" />
+      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\structural_patterns\proxy\jdk_proxy" />
       <recent name="D:\JavaForWork\design_patterns\src\main\resources" />
       <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns\advance_abstract_factory" />
-      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns" />
-      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns\mode_extension" />
-      <recent name="D:\JavaForWork\design_patterns\src\main\java\com\colin\patterns\creational_patterns\abstract_factory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.colin.patterns.creational_patterns.abstract_factory" />
-      <recent name="com.colin.patterns.creational_patterns.simple_factory" />
-      <recent name="com.colin.patterns.creational_patterns.singleton.hungry.static_block" />
+      <recent name="com.colin.patterns.behavior_pattern.strategy" />
+      <recent name="com.colin.patterns.behavior_pattern.template" />
+      <recent name="com.colin.patterns.structural_patterns.flyweight" />
+      <recent name="com.colin.patterns.structural_patterns.bridge" />
+      <recent name="com.colin.patterns.structural_patterns.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.CitationTest">
-    <configuration name="CitationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.prototype.CitationTest" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.com.colin.patterns.behavior_pattern.strategy.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.config_abstract_factory.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.structural_pattern.flyweight.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.config_abstract_factory.*" />
+          <option name="PATTERN" value="com.colin.patterns.structural_pattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.colin.patterns.creational_patterns.abstract_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.abstract_factory.Client" />
+    <configuration name="com.colin.patterns.behavior_pattern.strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.behavior_pattern.strategy.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.abstract_factory.*" />
+          <option name="PATTERN" value="com.colin.patterns.behavior_pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.colin.patterns.creational_patterns.config_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.config_factory.Client" />
+    <configuration name="com.colin.patterns.behavior_pattern.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.behavior_pattern.template.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.config_factory.*" />
+          <option name="PATTERN" value="com.colin.patterns.behavior_pattern.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +235,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.colin.patterns.creational_patterns.factory_method.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.creational_patterns.factory_method.Client" />
+    <configuration name="com.colin.patterns.structural_pattern.bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.structural_pattern.bridge.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.colin.patterns.creational_patterns.factory_method.*" />
+          <option name="PATTERN" value="com.colin.patterns.structural_pattern.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.colin.patterns.structural_pattern.composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.patterns.structural_pattern.composite.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.patterns.structural_pattern.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.CitationTest" />
+        <item itemvalue="应用程序.com.colin.patterns.behavior_pattern.strategy.Client" />
+        <item itemvalue="应用程序.com.colin.patterns.behavior_pattern.template.Client" />
         <item itemvalue="应用程序.Client" />
-        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.config_factory.Client" />
-        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.abstract_factory.Client" />
-        <item itemvalue="应用程序.com.colin.patterns.creational_patterns.factory_method.Client" />
+        <item itemvalue="应用程序.com.colin.patterns.structural_pattern.composite.Client" />
+        <item itemvalue="应用程序.com.colin.patterns.structural_pattern.bridge.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +297,22 @@
       <workItem from="1737474299797" duration="452000" />
       <workItem from="1737533914064" duration="6583000" />
       <workItem from="1737560867650" duration="2886000" />
-      <workItem from="1737622657938" duration="2789000" />
+      <workItem from="1737622657938" duration="3470000" />
+      <workItem from="1737699064378" duration="14000" />
+      <workItem from="1737708595181" duration="1651000" />
+      <workItem from="1737802815309" duration="424000" />
+      <workItem from="1737939432387" duration="3600000" />
+      <workItem from="1737965434479" duration="2906000" />
+      <workItem from="1738057326884" duration="2226000" />
+      <workItem from="1738125110885" duration="917000" />
+      <workItem from="1738136251230" duration="821000" />
+      <workItem from="1738236014237" duration="2700000" />
+      <workItem from="1738403922140" duration="1356000" />
+      <workItem from="1738486341920" duration="1876000" />
+      <workItem from="1738489584327" duration="15000" />
+      <workItem from="1738575803500" duration="955000" />
+      <workItem from="1738590309252" duration="565000" />
+      <workItem from="1738657474848" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1736154433528</created>
@@ -292,7 +384,70 @@
       <option name="project" value="LOCAL" />
       <updated>1737563350164</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加factory包">
+      <created>1737630225876</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737630225876</updated>
+    </task>
+    <task id="LOCAL-00012" summary="原型模式">
+      <created>1737630239264</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737630239264</updated>
+    </task>
+    <task id="LOCAL-00013" summary="生成器模式">
+      <created>1737709878343</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737709878343</updated>
+    </task>
+    <task id="LOCAL-00014" summary="代理模式">
+      <created>1737967741814</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737967741814</updated>
+    </task>
+    <task id="LOCAL-00015" summary="适配器模式">
+      <created>1738059784074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738059784074</updated>
+    </task>
+    <task id="LOCAL-00016" summary="桥接模式">
+      <created>1738237489994</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738237489994</updated>
+    </task>
+    <task id="LOCAL-00017" summary="组合模式">
+      <created>1738405272583</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738405272583</updated>
+    </task>
+    <task id="LOCAL-00018" summary="享元模式">
+      <created>1738660659364</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738660659364</updated>
+    </task>
+    <task id="LOCAL-00019" summary="模板方法模式">
+      <created>1738660691608</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738660691608</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +473,16 @@
     <MESSAGE value="工厂方法模式" />
     <MESSAGE value="抽象工厂模式" />
     <MESSAGE value="模式扩展——配置抽象工厂和简单工厂" />
-    <option name="LAST_COMMIT_MESSAGE" value="模式扩展——配置抽象工厂和简单工厂" />
+    <MESSAGE value="添加factory包" />
+    <MESSAGE value="原型模式" />
+    <MESSAGE value="生成器模式" />
+    <MESSAGE value="代理模式" />
+    <MESSAGE value="适配器模式" />
+    <MESSAGE value="桥接模式" />
+    <MESSAGE value="组合模式" />
+    <MESSAGE value="享元模式" />
+    <MESSAGE value="模板方法模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板方法模式" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
